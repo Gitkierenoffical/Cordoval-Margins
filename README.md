@@ -1,5 +1,21 @@
 # Cordoval Margins
 
-Instant margin check. Enter sell price and cost (or cost and a target margin). See profit, margin percent, and markup. Clear or refresh wipes the form. Nothing is stored.
+Privacy-first margin calculator for [margins.cordoval.co.uk](https://margins.cordoval.co.uk).
 
-Part of Cordoval (cordoval.co.uk).
+Enter sell price and cost, or cost and a target margin, to see profit, margin percent and markup. All calculations run in your browser. **Nothing is stored** — clear the form or refresh the page and your figures are gone.
+
+## Development
+
+```bash
+npm install
+npm run dev
+```
+
+## Production build
+
+```bash
+npm run build
+npm run preview
+```
+
+Static output is in `dist/`, ready for Vercel or any static host.
