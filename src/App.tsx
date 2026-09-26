@@ -9,6 +9,7 @@ import {
   type FormState,
   type InputMode,
 } from "./calculator";
+import { BuildHouseDailyAd } from "./BuildHouseDailyAd";
 
 const LOGO_URL =
   "https://raw.githubusercontent.com/Gitkierenoffical/image-store-for-cordoval/main/logos/margins.svg";
@@ -300,6 +301,8 @@ function App() {
           </section>
         </div>
       </main>
+
+      <BuildHouseDailyAd />
 
       <footer className="site-footer">
         <div className="footer-inner">

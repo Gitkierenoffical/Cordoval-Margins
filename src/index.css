@@ -357,6 +357,51 @@ body {
   font-variant-numeric: tabular-nums;
 }
 
+.footer-ad {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 0 1rem 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .footer-ad {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+.footer-ad-link {
+  display: block;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 1px solid rgb(226 232 240 / 0.8);
+  background: #fff;
+  transition:
+    box-shadow 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.footer-ad-link:hover {
+  border-color: var(--brand-border);
+  box-shadow: 0 4px 14px rgb(15 23 42 / 0.08);
+}
+
+.footer-ad-link:focus {
+  outline: none;
+}
+
+.footer-ad-link:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+}
+
+.footer-ad-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .site-footer {
   border-top: 1px solid rgb(226 232 240 / 0.8);
   background: rgb(255 255 255 / 0.85);
